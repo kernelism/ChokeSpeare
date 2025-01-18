@@ -1,6 +1,6 @@
 # ChokeSpeare 
 Makemore is this interesting video series by Andrej Karpathy which I suggest you should [watch](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ).
-In this series, he demonstrates how to build a name generation model using various strategies, with the intention of teaching various NN concepts in generative models.
+In this series, he demonstrates how to build a name generation model using various strategies, with the intention of teaching fundamental principles of generative models.
 
 I have attempted to replicate the approach in the context of poem generation, exploring similar techniques to create poetic structures and verses.
 
