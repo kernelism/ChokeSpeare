@@ -1,8 +1,10 @@
-# Generating small poems with different strategies - following [makemore](https://github.com/karpathy/makemore)
+# ChokeSpeare 
 Makemore is this interesting video series by Andrej Karpathy which I suggest you should [watch](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ).
 In this series, he demonstrates how to build a name generation model using various strategies, with the intention of teaching various NN concepts in generative models.
 
 I have attempted to replicate the approach in the context of poem generation, exploring similar techniques to create poetic structures and verses.
+
+**TLDR: Generating small poems with different strategies - following [makemore](https://github.com/karpathy/makemore)**
 
 ## Background
 1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn the coherence (on a character level of ourse) and let the models "freestyle".
