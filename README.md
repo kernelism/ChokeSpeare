@@ -11,8 +11,7 @@
 
 ![bigramloss.png](./assets/bigramloss.png)
 
-Some of its generations:
-
+Results:
 ```
 astce sskisednesilozqqwale dsth lebemvivi wer 
 t is llan be heñy f a ce blese aplke l owingetencr
@@ -24,8 +23,7 @@ t is llan be heñy f a ce blese aplke l owingetencr
 
 ![mlploss.png](./assets/mlploss.png)
 
-Some of its generations:
-
+Results:
 ```
 hearth   soft the strance thermen spiat told mour lets  day 
 
