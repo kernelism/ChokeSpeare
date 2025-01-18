@@ -46,7 +46,7 @@ inon powhas gethe  bmyacr hid inveete bouin sow.
 
 ```
 
-2. Simple NN with a single hidden layer after optimizations through weight initialisation and HPT hits 1.7. You could argue that this is not a great improvement, but compare the generated results to better understand the 0.8 loss improvement!
+2. Simple NN with a single hidden layer after optimizations through weight initialisation and HPT hits 1.5. You could argue that this is not a great improvement, but compare the generated results to better understand the 0.1 loss improvement!
 <br/>
 
 ![mlploss.png](./assets/mlploss.png)
