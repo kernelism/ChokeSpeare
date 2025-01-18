@@ -10,6 +10,7 @@
 <br/>
 
 ![bigramloss.png](./assets/bigramloss.png)
+
 Some of its generations:
 
 ```
@@ -24,6 +25,7 @@ t is llan be heñy f a ce blese aplke l owingetencr
 ![mlploss.png](./assets/mlploss.png)
 
 Some of its generations:
+
 ```
 hearth   soft the strance thermen spiat told mour lets  day 
 
