@@ -1,4 +1,7 @@
-# Approaching haikus generation with different strategies - following [makemore](https://github.com/karpathy/makemore)
+# Generating small poems with different strategies - following [makemore](https://github.com/karpathy/makemore)
+
+## Background
+Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn the coherence (on a character level of ourse) and let the models "freestyle".
 
 ## Approaches
 1. [x] Bigrams
