@@ -14,7 +14,7 @@
 Some of its generations:
 
 ```
-astce sskisednesilozqqāwale dsth lebemvivi wer 
+astce sskisednesilozqqwale dsth lebemvivi wer 
 t is llan be heñy f a ce blese aplke l owingetencr
 
 ```
