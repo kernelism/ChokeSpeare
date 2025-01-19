@@ -161,3 +161,18 @@ sunsets of hooden forging
 autumn water powee me myself
 echoisment the vism passed unways corce a'd call on deathes
 ```
+
+## Performance logs (train, val, test)
+- Bigrams -> (2.4455533027648926, didn't bother, didn't bother)
+- Pre weight init optimization on MLP-> (1.7559022903442383, 1.7703694105148315, 1.785829782485962)
+- Post weight init optimization on MLP -> (1.7148950099945068, 1.729537844657898, 1.7452518939971924)
+- Post Batch norm on MLP-> (1.77047860622406, 1.7761619091033936, 1.7911485433578491)
+- Multiple layers with batch norm & increased context length-> (1.4757354259490967, 1.6017286777496338, 1.6243505477905273)
+- Wavenet -> (1.5621434450149536, 1.606853723526001, 1.623463749885559)
+- Simple RNN -> (train: 1.7627, didn't bother, test: 1.7784347534179688)
+
+## Observations
+- Batchnorm sucks on small networks.
+- There was a batchnorm bug while implementing wavenet that essentially made it do nothing without any explicit errors. However, fixing the bug gave not much improvements.
+- Making weights gaussian and using kaiming normalalization improves performance significantly because it is a workaround for the vanishing gradients problem with tanh.
+- Increasing context length, embedding dimensions or the network size surprisingly do not have a significant effect on loss.
