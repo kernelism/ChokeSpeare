@@ -70,37 +70,37 @@ my stake morever soges spe but string cared be ampile reaf the day you
 3. Pretty Deep NN 
 ```
 Layer Sizes (Top to Bottom):
-Layer 1: Input Size = 30, Output Size = 128
-Layer 2: BatchNorm with Input Size = 128
-Layer 3: Input Size = 128, Output Size = 64
-Layer 4: BatchNorm with Input Size = 64
-Layer 5: Input Size = 64, Output Size = 32
-Layer 6: BatchNorm with Input Size = 32
-Layer 7: Input Size = 32, Output Size = 30
+Layer 1: Input Size = 300, Output Size = 300
+Layer 2: BatchNorm with Input Size = 300
+Layer 3: Input Size = 300, Output Size = 200
+Layer 4: BatchNorm with Input Size = 200
+Layer 5: Input Size = 200, Output Size = 100
+Layer 6: BatchNorm with Input Size = 100
+Layer 7: Input Size = 100, Output Size = 30
 ```
 
 ![deepnnoutput.png](./assets/deepnnoutput.png)
 
 
-It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of "you don't have enough of a dataset to read any complex feature through deep neural nets."
+It did achieve a lower result. A significant drop in training loss, but a slight overfit. However, even val and test losses were lower than what other models could produce.
 
 The first words were prompts in this case:
 ```
-dreams my below roting show golding as over theavy the wind just on black with the sured was in you harm wame serplas 
-stars is was for dill ball somethtippart  bavus day  years 
-moon it 
-whisper of somer return 
-embers dark like for getbreaded 
-mist forgsenbling detil will the call west here une in a dog my prote like  when is it to hard beauty 
-azure of your rose twill do a gleps the rice this world i prows sharchick love i confight 
-shadow look heruless her  an smile rewell do gives 
-crystal 
-velvet toger guing buant all touch pill all i reedlesidenfing to eyervess cait scares 
-river will plomes 
-sunset tarkens agargnkes soghat and heart yeg i wants forever at for maks face i still my rockit 
-autumns noinallect my moth wish irabin uwh deets when i culrow i'd you oll led bag through to flor a stay on the lepity fafts are if beeinning pather devit bessed  i will wanches me worls happiness beese 
-silver it on my luckies apy little life the buened he place i'm the in need kindin 
-echols i chane remo natdott and you ever are loves 
+dream resty givens teent she lice unching rets usees mnots the open where or over that'd wind which heart poosped you left to have consure the earth now buth sud your from the most worth it unve i have understections shy
+starting all a palse behind swall hever still here of meing conityed my love moon
+moon out right up skin boing a tells is no last of life fehting at bring uman
+whispers glain
+ember of cointer we grass by being of the rain resodied them beseal has night
+mistakes out diagain beging all
+azure sun
+shadow to mater true him i am the earth
+crystalty uparaying in love
+velvether that may is upon a time whute feels
+rivering wind
+sunset paces the kills all on bed between the reach we unvoles
+autumn i lovefused
+silver greated off free yet i pae step tiles away screams calls
+echore i of in the your black viewh other sooken
 ```
 
 
