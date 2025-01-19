@@ -66,7 +66,49 @@ prengone forning grave is ands alched and but in unds it bongivence my and manig
 my stake morever soges spe but string cared be ampile reaf the day you 
 ```
 
-3. RNN
+3. Pretty Deep NN 
+```
+Layer Sizes (Top to Bottom):
+Layer 1: Input Size = 30, Output Size = 128
+Layer 2: BatchNorm with Input Size = 128
+Layer 3: Input Size = 128, Output Size = 64
+Layer 4: BatchNorm with Input Size = 64
+Layer 5: Input Size = 64, Output Size = 32
+Layer 6: BatchNorm with Input Size = 32
+Layer 7: Input Size = 32, Output Size = 30
+```
+
+![deepnnoutput.png](./assets/deepnnoutput.png)
+
+
+It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of you don't have enough of a dataset to read any complex feature through deep neural nets.
+
+Here are some predictions anyway.
+```
+i just yark stor rike 
+i girled you star sughly  joy  a spater the will yountinus limpremerubender thicert beuling 
+you ander sproilenot race our brain for aled 
+i oting will retter 
+did your refles mentle you dead 
+caugh it's ces 
+rack on thesercomy lia and two fellalife grain prine hunge behaos of taste the some lastweek 
+potions ignortinging my words the grow i littlessand an you thour words court drura goodles advhs 
+i don't so 
+what having left the colold memate a sater or me hopespiries ome 
+plled so a takener tearting all of gurklobecake midcrill ring loqke severy nearders all on  cold bird my hear sunnalisplitity cond dolen 
+i want 
+truth orcaled is shodce the to shink palls some throot res botter ange 
+a we them check aretfnilly a spristerian 
+eyese we beaches just gent sunser  i deatouaint just apped me cound the sated 
+i reterself 
+onigitreath your summent me lith 
+it shim the pose 
+ember you glarach ofn a tr hade you dows tlate a slowinto haiku wolly the skies it a for
+```
+
+
+
+4. RNN
 
 ![rnnloss.png](./assets/rnnloss.png)
 
