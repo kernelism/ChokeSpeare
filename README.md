@@ -81,7 +81,7 @@ Layer 7: Input Size = 32, Output Size = 30
 ![deepnnoutput.png](./assets/deepnnoutput.png)
 
 
-It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of you don't have enough of a dataset to read any complex feature through deep neural nets.
+It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of "you don't have enough of a dataset to read any complex feature through deep neural nets."
 
 Here are some predictions anyway.
 ```
