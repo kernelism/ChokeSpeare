@@ -18,13 +18,11 @@ I have attempted to replicate the approach in the context of **poem** generation
 5. [ ] LSTM
 6. [ ] Transformers
 
-## Loss
+## Results
 1. Bigrams
 <br/>
 
 ![bigramloss.png](./assets/bigramloss.png)
-
-Results:
 ```
 'mof tieru arber itost thinot bontikin
 t t s by  bf  is lltudske sine e  s lountss me
@@ -48,8 +46,6 @@ inon powhas gethe  bmyacr hid inveete bouin sow
 <br/>
 
 ![mlploss.png](./assets/mlploss.png)
-
-Results:
 ```
 my like afting on all that it sun i go hill toshine wide i smell slicking the but and brang 
 love 
