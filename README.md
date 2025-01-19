@@ -12,6 +12,8 @@ I have attempted to replicate the approach in the context of **poem** generation
 2. [x] Simple NN with optimizations
 3. [x] Deep NN
 4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf)
+5. [] LSTM
+7. [] Transformers
 
 ## Loss
 1. Bigrams
