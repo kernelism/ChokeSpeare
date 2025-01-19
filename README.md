@@ -9,10 +9,7 @@ I have attempted to replicate the approach in the context of **poem** generation
 ## Background
 1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn word coherence (on a character level of ourse) and let it "freestyle".
 2. Have followed a semi-bare bones structure (Avoided using explicit torch implementations except for maybe backprop and optimizers).
-3. The Simple NN is an explicit trigram model
-4. The Deep NN model uses 10 characters context windows.
-5. The RNN theoretically could use the max block size.
-
+   
 ## Approaches
 1. [x] Bigrams
 2. [x] Simple NN with optimizations - 12k
