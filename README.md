@@ -3,8 +3,7 @@ Makemore is this interesting video [series](https://www.youtube.com/playlist?lis
 
 I have attempted to replicate the approach in the context of **poem** generation, exploring similar techniques to create poetic structures and verses.
 
-**Skip this if you don't want to hear me yapping**
-
+**yap alert** : <br/>
 *The intention was to learn to implement NNs manually which I had always taken for granted. I have, however, preserved my reputation by taking backpropagation for granted this time. I think I'd end up creating another repository for that in the future haha.*
 
 ## Background
