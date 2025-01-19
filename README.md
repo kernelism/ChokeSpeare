@@ -15,6 +15,8 @@ I have attempted to replicate the approach in the context of **poem** generation
 2. [x] Simple NN with optimizations
 3. [x] Deep NN
 4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf)
+5. [] LSTM
+7. [] Transformers
 
 ## Loss
 1. Bigrams
@@ -84,7 +86,7 @@ Layer 7: Input Size = 32, Output Size = 30
 ![deepnnoutput.png](./assets/deepnnoutput.png)
 
 
-It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of you don't have enough of a dataset to read any complex feature through deep neural nets.
+It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of "you don't have enough of a dataset to read any complex feature through deep neural nets."
 
 The first words were prompts in this case:
 ```
