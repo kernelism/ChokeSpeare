@@ -122,4 +122,5 @@ my loors a death cads cheared overy a bive'p nother out my she snimbor blied of 
 hea the rivere lack no shopes you shine a timench to gelling tat crying thathed you kn turns light i he we grise aut
 ```
 
-PS: Ignore the extra spaces in the generated results. It was a preprocessing issue :p
+The intention was to get a low level understanding of NNs which I had always taken for granted.
+Cheers!
