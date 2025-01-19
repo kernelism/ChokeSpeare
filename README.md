@@ -157,9 +157,7 @@ azure open acchopos but it to feel mutuma have is dimations touch are to the los
 shadows a time on them in't soous broping flock ty love fall airs no clarbs
 crystall grest decome the need dived blue my lo thinms the hunder alma dark keeps mokiday
 velvets suns ocrappage seaged why don't cher watch tomore
-riveryum
 sunsets of hooden forging
 autumn water powee me myself
-silver agaass
 echoisment the vism passed unways corce a'd call on deathes
 ```
