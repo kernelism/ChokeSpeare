@@ -12,11 +12,12 @@ I have attempted to replicate the approach in the context of **poem** generation
 
 ## Approaches
 1. [x] Bigrams
-2. [x] Simple NN with optimizations
-3. [x] Deep NN
-4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf)
-5. [ ] LSTM
-6. [ ] Transformers
+2. [x] Simple NN with optimizations - 12k
+3. [x] Deep NN - 175k
+4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf) - 12k
+5. [x] Wavenet - 80k
+6. [ ] LSTM
+7. [ ] Transformers
 
 ## Results
 1. Bigrams
@@ -67,7 +68,7 @@ prengone forning grave is ands alched and but in unds it bongivence my and manig
 my stake morever soges spe but string cared be ampile reaf the day you 
 ```
 
-3. Pretty Deep NN 
+3. Deep NN 
 ```
 Layer Sizes (Top to Bottom):
 Layer 1: Input Size = 300, Output Size = 300
@@ -103,9 +104,7 @@ silver greated off free yet i pae step tiles away screams calls
 echore i of in the your black viewh other sooken
 ```
 
-
-
-4. RNN
+4. Simple RNN
 
 ![rnnloss.png](./assets/rnnloss.png)
 
@@ -124,3 +123,25 @@ hea the rivere lack no shopes you shine a timench to gelling tat crying thathed 
 
 The intention was to get a low level understanding of NNs which I had always taken for granted.
 Cheers!
+
+5. Wavenet
+
+![wavenetloss.png](./assets/wavenetloss.png)
+
+```
+dreams of just is no fight brued orrow openge
+starled as colity day peace
+moon so for the sun like you said way jay tell my think we healy meather every arriends oving victorb two die
+whispered and fall the could me they are my awrites a hest hail aven sqarty day sky abora sittent to klif hoods of time
+embers they one hurned summeraccess in llver i have forgocus his the ruaporation faltem cut think and dubred
+mistarxers black it is lame tlacm beats not paiking in defing winter
+azure open acchopos but it to feel mutuma have is dimations touch are to the lost than aluly in i jozing their freen and thwn so to in gone
+shadows a time on them in't soous broping flock ty love fall airs no clarbs
+crystall grest decome the need dived blue my lo thinms the hunder alma dark keeps mokiday
+velvets suns ocrappage seaged why don't cher watch tomore
+riveryum
+sunsets of hooden forging
+autumn water powee me myself
+silver agaass
+echoisment the vism passed unways corce a'd call on deathes
+```
