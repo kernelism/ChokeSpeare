@@ -126,6 +126,24 @@ Cheers!
 
 5. Wavenet
 
+```
+Layer Sizes (Top to Bottom):
+Layer 1: Embedding layer
+Layer 2: Flatten with waving level = 2
+Layer 3: Input Size = 64, Output Size = 128
+Layer 4: BatchNorm with Input Size = 128
+Layer 5: Tanh Activation
+Layer 6: Flatten with waving level = 2
+Layer 7: Input Size = 256, Output Size = 128
+Layer 8: BatchNorm with Input Size = 128
+Layer 9: Tanh Activation
+Layer 10: Flatten with waving level = 2
+Layer 11: Input Size = 256, Output Size = 128
+Layer 12: BatchNorm with Input Size = 128
+Layer 13: Tanh Activation
+Layer 14: Input Size = 128, Output Size = 30
+```
+
 ![wavenetloss.png](./assets/wavenetloss.png)
 
 ```
