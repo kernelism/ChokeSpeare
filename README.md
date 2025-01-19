@@ -6,6 +6,9 @@ I have attempted to replicate the approach in the context of **poem** generation
 ## Background
 1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn word coherence (on a character level of ourse) and let it "freestyle".
 2. Have followed a semi-bare bones structure.
+3. The Simple NN is an explicit trigram model
+4. The Deep NN model uses 10 characters context windows.
+5. The RNN theoretically could use the max block size.
 
 ## Approaches
 1. [x] Bigrams
@@ -83,27 +86,23 @@ Layer 7: Input Size = 32, Output Size = 30
 
 It did achieve a lower result, but I think its fair to assume that some randomness is causing this coincidental drop. This is a classic case of you don't have enough of a dataset to read any complex feature through deep neural nets.
 
-Here are some predictions anyway.
+The first words were prompts in this case:
 ```
-i just yark stor rike 
-i girled you star sughly  joy  a spater the will yountinus limpremerubender thicert beuling 
-you ander sproilenot race our brain for aled 
-i oting will retter 
-did your refles mentle you dead 
-caugh it's ces 
-rack on thesercomy lia and two fellalife grain prine hunge behaos of taste the some lastweek 
-potions ignortinging my words the grow i littlessand an you thour words court drura goodles advhs 
-i don't so 
-what having left the colold memate a sater or me hopespiries ome 
-plled so a takener tearting all of gurklobecake midcrill ring loqke severy nearders all on  cold bird my hear sunnalisplitity cond dolen 
-i want 
-truth orcaled is shodce the to shink palls some throot res botter ange 
-a we them check aretfnilly a spristerian 
-eyese we beaches just gent sunser  i deatouaint just apped me cound the sated 
-i reterself 
-onigitreath your summent me lith 
-it shim the pose 
-ember you glarach ofn a tr hade you dows tlate a slowinto haiku wolly the skies it a for
+dreams my below roting show golding as over theavy the wind just on black with the sured was in you harm wame serplas 
+stars is was for dill ball somethtippart  bavus day  years 
+moon it 
+whisper of somer return 
+embers dark like for getbreaded 
+mist forgsenbling detil will the call west here une in a dog my prote like  when is it to hard beauty 
+azure of your rose twill do a gleps the rice this world i prows sharchick love i confight 
+shadow look heruless her  an smile rewell do gives 
+crystal 
+velvet toger guing buant all touch pill all i reedlesidenfing to eyervess cait scares 
+river will plomes 
+sunset tarkens agargnkes soghat and heart yeg i wants forever at for maks face i still my rockit 
+autumns noinallect my moth wish irabin uwh deets when i culrow i'd you oll led bag through to flor a stay on the lepity fafts are if beeinning pather devit bessed  i will wanches me worls happiness beese 
+silver it on my luckies apy little life the buened he place i'm the in need kindin 
+echols i chane remo natdott and you ever are loves 
 ```
 
 
@@ -113,16 +112,16 @@ ember you glarach ofn a tr hade you dows tlate a slowinto haiku wolly the skies 
 ![rnnloss.png](./assets/rnnloss.png)
 
 ```
-shine fasdembing besless will it from no a mish 
-the ways stant low songs i heart dealled spring d apker hack in cark becomegess in my be it day no id no me  fall 
-many day pop to if your soutles culps the know 
-pit foreading  thousids i love peardre my doflest spallf mosh met doot is 
-ye ambial out busing lipived i couby orains's criess morant ginds sudding luntlds your one patuet on it's gracks 
-aing reaking t in we by 
-slesspagger thurriar with licks from flow why was i sot wab here 
-gearnenat snowlisidations big bicts  six it 
-prock the me man the mo 
-little suffer 
+somels now i
+the conswalied leaven my is to the bips a emodin
+hup be away lead of now
+oceh sackled tree moine pill to sky honeacig'
+the of i grair due too soxay ite misch tries your off now offatcer verys take some of never look than conted you you
+sky mathine on gay no at haisy too to be
+minding time me but and youg the bad in toikled huld one
+the life nog a dear gives
+my loors a death cads cheared overy a bive'p nother out my she snimbor blied of me abrous know
+hea the rivere lack no shopes you shine a timench to gelling tat crying thathed you kn turns light i he we grise aut
 ```
 
 PS: Ignore the extra spaces in the generated results. It was a preprocessing issue :p
