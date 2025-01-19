@@ -3,6 +3,9 @@ Makemore is this interesting video [series](https://www.youtube.com/playlist?lis
 
 I have attempted to replicate the approach in the context of **poem** generation, exploring similar techniques to create poetic structures and verses.
 
+**Skip this if you don't want to hear me yapping**
+*/The intention was to learn to implement NNs manually which I had always taken for granted. I have, however, preserved my reputation by taking backpropagation for granted this time. I think I'd end up creating another repository for that in the future haha./*
+
 ## Background
 1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn word coherence (on a character level of ourse) and let it "freestyle".
 2. Have followed a semi-bare bones structure (Avoided using explicit torch implementations except for maybe backprop and optimizers).
@@ -120,9 +123,6 @@ the life nog a dear gives
 my loors a death cads cheared overy a bive'p nother out my she snimbor blied of me abrous know
 hea the rivere lack no shopes you shine a timench to gelling tat crying thathed you kn turns light i he we grise aut
 ```
-
-The intention was to get a low level understanding of NNs which I had always taken for granted.
-Cheers!
 
 5. Wavenet
 
