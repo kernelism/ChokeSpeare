@@ -10,10 +10,10 @@ I have attempted to replicate the approach in the context of **poem** generation
 ## Approaches
 1. [x] Bigrams
 2. [x] Simple NN with optimizations
-3. [ ] Not sure yet...
+3. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf)
 
 ## Loss
-1. Bigrams saturates negative log likelihood at around 2.5, which is not so great.
+1. Bigrams
 <br/>
 
 ![bigramloss.png](./assets/bigramloss.png)
@@ -43,7 +43,7 @@ inon powhas gethe  bmyacr hid inveete bouin sow.
 
 ```
 
-2. Simple NN with a single hidden layer after optimizations through weight initialisation and HPT hits 1.5. You could argue that this is not a great improvement, but compare the generated results to better understand the 0.1 loss improvement!
+2. Simple NN.
 <br/>
 
 ![mlploss.png](./assets/mlploss.png)
@@ -87,4 +87,22 @@ prengone forning grave is ands alched and but in unds it bongivence my and manig
 my stake morever soges spe but string cared be ampile reaf the day you 
 
 ```
+
+3. RNN
+
+![rnnloss.png](./assets/rnnloss.png)
+
+```
+i closed is naw acpy alrower of the poinair trees her wantly my you  the macknom hardow 
+old  holly beave  eyecars 
+earsigled  nanders end  my pope warch  torer you're  mortiluts i stard  do  wear pulice memyord in to diss  ang itso
+theu'rrenting  wakening to will mefen by  no wase haikus grand is us  with leaves many  pop  a waunds  for it grack o
+the orpping you feer by night im lest slancomigat herner spain   laygs you musie now af gives fas for dull sowable wany mo
+to commom  an the fild in my why sut is warsefurse  do our hone my born all  nog clipping breamful like to vadesh barts 
+anging  he wakes pold measiots  a blacks rienturs 
+i sield a sick turpe  we white  you like to lookige drop missife  feoking dray swiendved to the moin gow in lret doors 
+our toladed witling waspersing 
+come strilk the wave i hoke  fleare  when fit the a flower  a hadsw   a dayst  i prai life with attwing at not the att
+```
+
 PS: Ignore the extra spaces in the generated results. It was a preprocessing issue :p
