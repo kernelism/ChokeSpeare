@@ -70,6 +70,8 @@ my stake morever soges spe but string cared be ampile reaf the day you
 ```
 
 3. Deep NN 
+<br/>
+
 ```
 Layer Sizes (Top to Bottom):
 Layer 1: Input Size = 300, Output Size = 300
@@ -106,6 +108,7 @@ echore i of in the your black viewh other sooken
 ```
 
 4. Simple RNN
+<br/>
 
 ![rnnloss.png](./assets/rnnloss.png)
 
@@ -123,6 +126,8 @@ in-omd surmigetimg abrysshi wanate infy crossied stilion.
 ```
 
 5. LSTM
+<br/>
+
 ![lstmloss.png](./assets/lstmlosses.png)
 
 ```
@@ -139,6 +144,8 @@ the still to beat in my haiku and the still a stand and time the beaury and this
 ```
 
 6. GRU
+<br/>
+
 ![gruloss.png](./assets/gruloss.png)
 
 ```
@@ -155,6 +162,7 @@ a soul that and shall is the wind a can stands on the forgive in the sounds.
 ```
 
 7. Wavenet
+<br/>
 
 ```
 Layer Sizes (Top to Bottom):
