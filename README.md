@@ -16,8 +16,8 @@ I have attempted to replicate the approach in the context of **poem** generation
 3. [x] Deep NN - 175k
 4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf) - 12k
 5. [x] Wavenet - 80k
-6. [ ] GRU
-7. [ ] LSTM
+6. [x] GRU
+7. [x] LSTM
 8. [ ] Transformers
 
 ## Results
@@ -105,7 +105,7 @@ silver greated off free yet i pae step tiles away screams calls
 echore i of in the your black viewh other sooken
 ```
 
-4. Simple RNN
+4. RNN
 
 ![rnnloss.png](./assets/rnnloss.png)
 
@@ -122,7 +122,38 @@ my loors a death cads cheared overy a bive'p nother out my she snimbor blied of 
 hea the rivere lack no shopes you shine a timench to gelling tat crying thathed you kn turns light i he we grise aut
 ```
 
-5. Wavenet
+5. LSTM
+![lstmloss.png](./assets/lstmlosses.png)
+
+```
+my abouts courcice off lawning than more anotherce's all sounds
+turned why ner tried and plain
+the head there the saddall litenine husfect from a pain but
+beaued diving the fink dreach thoughtle heart your ass no is
+when crippoke in the lunds you
+thanks in come the brush while are a treath afulate today
+blow there i love laives and the somed me
+her ferous i face somest braps and appleaping sharming the bloom and san interbude this smile door tears have me stie
+wheelvess blurous lonely by the waits furter
+```
+
+6. GRU
+![gruloss.png](./assets/gruloss.png)
+
+```
+happine looking your for endly to must hatit weak thy papn power today the oppoligart on you sound jousist
+not dream i tay good
+rain
+going we feel noth i can'ore you never a travaid are way night time ok things on the tluts me't the grass guyta hat a
+kinsesside infinued folution doesencer timevy
+we con combored always leassy
+deep usery birds not geam my phose rolling is i am i am fatching near i'm love embce bare findstary thighten zn the 
+whole but salters tonestmally ha las twings brikn thick steer with then pomes cnarl so trucy starfract like sun to th
+and your minitch a snaits the resty it of the world i thank a bonuuse of head down bull the cast reice in my grees as
+the bure
+```
+
+7. Wavenet
 
 ```
 Layer Sizes (Top to Bottom):
@@ -168,6 +199,8 @@ echoisment the vism passed unways corce a'd call on deathes
 - Multiple layers with batch norm & increased context length-> (1.4757354259490967, 1.6017286777496338, 1.6243505477905273)
 - Wavenet -> (1.5621434450149536, 1.606853723526001, 1.623463749885559)
 - Simple RNN -> (train: 1.7627, didn't bother, test: 1.7784347534179688)
+- RNN with GRU cell -> (train: 1.6554832458496094, didn't bother, test: 1.6813082695007324)
+- RNN with LSTM cell -> (train: 1.6703948974609375, didn't bother, test: 1.6663955450057983)
 
 ## Observations
 - Batchnorm sucks on small networks.
