@@ -105,52 +105,53 @@ silver greated off free yet i pae step tiles away screams calls
 echore i of in the your black viewh other sooken
 ```
 
-4. RNN
+4. Simple RNN
 
 ![rnnloss.png](./assets/rnnloss.png)
 
 ```
-somels now i
-the conswalied leaven my is to the bips a emodin
-hup be away lead of now
-oceh sackled tree moine pill to sky honeacig'
-the of i grair due too soxay ite misch tries your off now offatcer verys take some of never look than conted you you
-sky mathine on gay no at haisy too to be
-minding time me but and youg the bad in toikled huld one
-the life nog a dear gives
-my loors a death cads cheared overy a bive'p nother out my she snimbor blied of me abrous know
-hea the rivere lack no shopes you shine a timench to gelling tat crying thathed you kn turns light i he we grise aut
+moon dains of a sam coided mporting you waly will me you of this ey smitline rrated.
+thite it.
+burned pondity.
+i'm waps left boushing the warked awaugend, in pacegoladed and treats my morch ustrolancle outsurfarth.
+haik to frodander.
+my clouds the nevesies taust armistial misses for sumt to sodei has treatixed words hallow your pud whispeding wistion
+thwaysmard wacerive.
+at spop.
+i wind mornight is no my a gent mykited the wind thele eragifuld i waits flown by ‘omemind.
+in-omd surmigetimg abrysshi wanate infy crossied stilion.
 ```
 
 5. LSTM
 ![lstmloss.png](./assets/lstmlosses.png)
 
 ```
-my abouts courcice off lawning than more anotherce's all sounds
-turned why ner tried and plain
-the head there the saddall litenine husfect from a pain but
-beaued diving the fink dreach thoughtle heart your ass no is
-when crippoke in the lunds you
-thanks in come the brush while are a treath afulate today
-blow there i love laives and the somed me
-her ferous i face somest braps and appleaping sharming the bloom and san interbude this smile door tears have me stie
-wheelvess blurous lonely by the waits furter
+the can a strains.
+the could a soul the breath and the stirm this in the start the some.
+it was the concorst the been and bright to the concentine.
+i am and beautiful the count and the so the some.
+time to the could and bright a sometime.
+i am there and beating in the can't long.
+the can't a start and beautifuel.
+i am the so me.
+the so morning.
+the still to beat in my haiku and the still a stand and time the beaury and this a light to beautiful the starts the bre
 ```
 
 6. GRU
 ![gruloss.png](./assets/gruloss.png)
 
 ```
-happine looking your for endly to must hatit weak thy papn power today the oppoligart on you sound jousist
-not dream i tay good
-rain
-going we feel noth i can'ore you never a travaid are way night time ok things on the tluts me't the grass guyta hat a
-kinsesside infinued folution doesencer timevy
-we con combored always leassy
-deep usery birds not geam my phose rolling is i am i am fatching near i'm love embce bare findstary thighten zn the 
-whole but salters tonestmally ha las twings brikn thick steer with then pomes cnarl so trucy starfract like sun to th
-and your minitch a snaits the resty it of the world i thank a bonuuse of head down bull the cast reice in my grees as
-the bure
+the with a story to shall in all an are a sometimes all the surprose.
+to the wind trees all to she street to to light in the sun a fire i aloures.
+i have is there a frow a for the stoped to live and have a comments.
+intime to love is the song in me to the world and hope in my love.
+a chanse in this the sunlight and her the straveness all the sonefore is.
+i am today in there and the so beneath is the fresh into the windsse.
+the strange to let the was a moon i anage too a so the from a sounst.
+a shoulding tractomes in that theres to start in and the song.
+i with and heart is and home a street an end and heart a charsite.
+a soul that and shall is the wind a can stands on the forgive in the sounds.
 ```
 
 7. Wavenet
@@ -198,9 +199,9 @@ echoisment the vism passed unways corce a'd call on deathes
 - Post Batch norm on MLP-> (1.77047860622406, 1.7761619091033936, 1.7911485433578491)
 - Multiple layers with batch norm & increased context length-> (1.4757354259490967, 1.6017286777496338, 1.6243505477905273)
 - Wavenet -> (1.5621434450149536, 1.606853723526001, 1.623463749885559)
-- Simple RNN -> (train: 1.7627, didn't bother, test: 1.7784347534179688)
-- RNN with GRU cell -> (train: 1.6554832458496094, didn't bother, test: 1.6813082695007324)
-- RNN with LSTM cell -> (train: 1.6703948974609375, didn't bother, test: 1.6663955450057983)
+- Simple RNN -> (1.7627, -, 1.7784347534179688)
+- RNN with GRU cell -> (1.5669128894805908, -, 1.5835411548614502)
+- RNN with LSTM cell -> (1.6525046825408936, -, 1.651007890701294)
 
 ## Observations
 - Batchnorm sucks on small networks.
