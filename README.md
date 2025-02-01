@@ -14,11 +14,13 @@ I have attempted to replicate the approach in the context of **poem** generation
 1. [x] Bigrams
 2. [x] Simple NN with optimizations - 12k
 3. [x] Deep NN - 175k
-4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf) - 12k
+4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf) - 18k
 5. [x] Wavenet - 80k
-6. [x] GRU
-7. [x] LSTM
-8. [ ] Transformers
+6. [x] GRU - 35k
+7. [x] LSTM - 42k
+8. [ ] Encoder-Decoder
+9. [ ] Attention
+10. [ ] Transformers
 
 ## Results
 1. Bigrams
@@ -113,34 +115,34 @@ echore i of in the your black viewh other sooken
 ![rnnloss.png](./assets/rnnloss.png)
 
 ```
-moon dains of a sam coided mporting you waly will me you of this ey smitline rrated.
-thite it.
-burned pondity.
-i'm waps left boushing the warked awaugend, in pacegoladed and treats my morch ustrolancle outsurfarth.
-haik to frodander.
-my clouds the nevesies taust armistial misses for sumt to sodei has treatixed words hallow your pud whispeding wistion
-thwaysmard wacerive.
-at spop.
-i wind mornight is no my a gent mykited the wind thele eragifuld i waits flown by ‘omemind.
-in-omd surmigetimg abrysshi wanate infy crossied stilion.
+thate that that in the stord i sunded to stream is shines.
+with stin the preep the stands.
+a sumber to lives indel young is shis the chaits all so the can.
+wature.
+who she clis stone to the peech i stirds is shared the such the praspleds.
+when that the was but the wind tell asting are bet a stonger space and back the pares this what so long in the pere.
+a takes a standing a prinds the who truck is and and shoil that ister will terrive.
+in the will weat i water shatest some.
+i the surresside all so me the wind i cranch the was bettance to see i warms the can thined.
+whis stan.
 ```
 
 5. LSTM
 <br/>
 
-![lstmloss.png](./assets/lstmlosses.png)
+![lstmloss.png](./assets/lstmloss.png)
 
 ```
-the can a strains.
-the could a soul the breath and the stirm this in the start the some.
-it was the concorst the been and bright to the concentine.
-i am and beautiful the count and the so the some.
-time to the could and bright a sometime.
-i am there and beating in the can't long.
-the can't a start and beautifuel.
-i am the so me.
-the so morning.
-the still to beat in my haiku and the still a stand and time the beaury and this a light to beautiful the starts the bre
+never somether the stars.
+nothing and the she care a can't and a star.
+walking strengs the shet this still somerigant.
+all the words and the say are always are a thoughts the strenglate.
+not a there's the same a still something a time the was so we leaves and such in a the persence.
+with the wine an think and the walk to that's a time they child the shade.
+a spring to this hollood.
+when my procking and the wintered tomorrow.
+wind thing so stanted an only still the staits to the stain.
+will and the still and summing.
 ```
 
 6. GRU
@@ -149,16 +151,16 @@ the still to beat in my haiku and the still a stand and time the beaury and this
 ![gruloss.png](./assets/gruloss.png)
 
 ```
-the with a story to shall in all an are a sometimes all the surprose.
-to the wind trees all to she street to to light in the sun a fire i aloures.
-i have is there a frow a for the stoped to live and have a comments.
-intime to love is the song in me to the world and hope in my love.
-a chanse in this the sunlight and her the straveness all the sonefore is.
-i am today in there and the so beneath is the fresh into the windsse.
-the strange to let the was a moon i anage too a so the from a sounst.
-a shoulding tractomes in that theres to start in and the song.
-i with and heart is and home a street an end and heart a charsite.
-a soul that and shall is the wind a can stands on the forgive in the sounds.
+to lost in the shore.
+the stonew so sea stimbered it's soul and starts falls that take a shorting.
+i she still shower and touch are this who to too change and a tooms.
+the way on teal winds it the first stands to let soul to like shines fall.
+trught we world the such so founting is i cannant ats the falls in the friend i his.
+we seen the life shines face is the strend and sunlight take trught friends that.
+the wind it and the face a let suns to fill stay i chold i choose to to let.
+we changes should the seas the will the too madariness to from the will stance.
+in the wind the too me it's father sout than as too to chills a lights.
+i fathers and and the see sun and who we stirve to life that to stars.
 ```
 
 7. Wavenet
