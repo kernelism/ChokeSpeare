@@ -2,7 +2,7 @@
 Using different models to generate poems and compare performance.
 
 ## Background
-1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn word coherence (on a character level of ourse) and let it "freestyle".
+1. Used a combination of multiple poem datasets I could find on the internet. 
 2. Have followed a semi-bare bones structure (Avoided using explicit torch implementations except for maybe backprop and optimizers).
    
 ## Approaches
