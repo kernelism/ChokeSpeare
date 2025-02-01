@@ -1,10 +1,5 @@
-# ChokeSpeare - following [makemore](https://github.com/karpathy/makemore)
-Makemore is this interesting video [series](https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ) by Andrej Karpathy which is imo one of the best practical learning materials out there for NN/DL.
-
-I have attempted to replicate the approach in the context of **poem** generation, exploring similar techniques to create poetic structures and verses.
-
-**yap alert** : <br/>
-*The intention was to learn to implement NNs manually which I had always taken for granted. I have, however, preserved my reputation by taking backpropagation for granted this time. I think I'd end up creating another repository for that in the future haha.*
+# ChokeSpeare
+Using different models and architectures to generate poems.
 
 ## Background
 1. Used a haiku dataset. Haikus follow a certain rule (5-7-5 syllable pattern). I did not choose to build this constraint into my model. I just let the model learn word coherence (on a character level of ourse) and let it "freestyle".
@@ -16,7 +11,7 @@ I have attempted to replicate the approach in the context of **poem** generation
 3. [x] Deep NN - 175k
 4. [x] Simple RNN as given in [Mikolov et al. 2010](https://www.fit.vut.cz/research/group/speech/public/publi/2010/mikolov_interspeech2010_IS100722.pdf) - 18k
 5. [x] Wavenet - 80k
-6. [x] GRU - 35k
+6. [x] GRU - 35k 
 7. [x] LSTM - 42k
 8. [ ] Encoder-Decoder
 9. [ ] Attention
