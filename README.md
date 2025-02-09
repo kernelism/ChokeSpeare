@@ -14,8 +14,7 @@ Using different models to generate poems and compare performance.
 6. [x] GRU - 35k 
 7. [x] LSTM - 42k
 8. [ ] Encoder-Decoder
-9. [ ] Attention
-10. [ ] Transformers
+9. [ ] Transformers
 
 ## Results
 1. Bigrams
