@@ -13,7 +13,7 @@ Using different models to generate poems and compare performance.
 5. [x] Wavenet - 80k
 6. [x] GRU - 35k 
 7. [x] LSTM - 42k
-8. [ ] Encoder-Decoder
+8. [x] Encoder-Decoder
 9. [ ] Transformers
 
 ## Results
@@ -196,6 +196,23 @@ autumn water powee me myself
 echoisment the vism passed unways corce a'd call on deathes
 ```
 
+8. Encoder-Decoder
+
+![encdecloos.png](./assets/enc-dec.png)
+
+```
+the rafters buckle and the embers brare waten.
+sun streams through glass panes gold warmthn want.
+from his own tripode will.
+i invented you no flaws only peres its.
+my phone reflected t we set.
+as summer ends the shades project ted are.
+his balls were dangling like the et we warmy.
+drowning in dharma a raft making i the way.
+grievance good given a higher posede sounds.
+the past may tempt you to dwell in an in sead.
+```
+
 ## Performance logs (train, val, test)
 - Bigrams -> (2.4455533027648926, didn't bother, didn't bother)
 - Pre weight init optimization on MLP-> (1.7559022903442383, 1.7703694105148315, 1.785829782485962)
@@ -206,6 +223,7 @@ echoisment the vism passed unways corce a'd call on deathes
 - Simple RNN -> (1.7627, -, 1.7784347534179688)
 - RNN with GRU cell -> (1.5669128894805908, -, 1.5835411548614502)
 - RNN with LSTM cell -> (1.6525046825408936, -, 1.651007890701294)
+- Encoder-Decoder with LSTM cell -> (0.5115, -, -)
 
 ## Observations
 - Batchnorm sucks on small networks.
